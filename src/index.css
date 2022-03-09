@@ -425,6 +425,14 @@ main {
     }
 }
 
+@media (min-width: 1920px){
+    .nuevo-gasto {
+        position: fixed;
+        bottom: 5rem;
+        right: 45rem;
+    }
+}
+
 @media (min-width: 2559px){
     .nuevo-gasto {
         position: fixed;
