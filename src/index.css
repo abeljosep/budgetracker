@@ -417,11 +417,19 @@ main {
     right: 5rem;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1280px){
     .nuevo-gasto {
         position: fixed;
         bottom: 5rem;
-        right: 30rem;
+        right: 15rem;
+    }
+}
+
+@media (min-width: 2559px){
+    .nuevo-gasto {
+        position: fixed;
+        bottom: 5rem;
+        right: 70rem;
     }
 }
 
