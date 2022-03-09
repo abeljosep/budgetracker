@@ -417,7 +417,13 @@ main {
     right: 5rem;
 }
 
-
+@media (min-width: 1024px){
+    .nuevo-gasto {
+        position: fixed;
+        bottom: 5rem;
+        right: 30rem;
+    }
+}
 
 .nuevo-gasto img {
     width: 5rem;
